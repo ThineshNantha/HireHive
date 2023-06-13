@@ -23,6 +23,7 @@ from kivy.graphics import Color, Rectangle
 from kivy.uix.image import Image
 from pymongo import MongoClient
 
+
 Builder.load_string('''
 <Button>:
     background_color:(0,0,0,0)
