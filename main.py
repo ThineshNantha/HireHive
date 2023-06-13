@@ -46,8 +46,8 @@ employer_encryption_key = b'n0MJHLrCBcoJL-yKXUZzQr-K8N82K76rsnOL49BjAxc='
 employer_cipher_suite = Fernet(employer_encryption_key)
 print(employer_encryption_key)
 
-openai.organization = 'org-PLZGvfWZoeTMMSMLUGNOSudn'
-openai.api_key = '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'
+openai.organization = 'org-GS1jnza5dXJ2rdOzG6Z9BsGT'
+openai.api_key = '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'
 
 class RBACManager:
     roles = {
